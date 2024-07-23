@@ -4,6 +4,7 @@ import { transfer } from "@globus/sdk/cjs";
  *    listGlobusTransfers
  * Description:
  *    Globus client-stub to get a list of all transfers
+ *    NOTE: this is the user-based version, for endpoint manager use getAllGlobusTasks() or getGlobusTask()
  * Inputs:
  *    authManager - Globus OAuth manager
  *    numberOfEvents - the number of transfers to return
